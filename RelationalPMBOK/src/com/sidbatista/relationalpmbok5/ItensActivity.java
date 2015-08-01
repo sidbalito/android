@@ -44,7 +44,6 @@ public class ItensActivity extends Activity implements ItensList
         setContentView(R.layout.itens);
 		itens = (ViewGroup) findViewById(R.id.itens);
 		currComponent = new Component(1, Component.GRUPO);
-		actionBar = getActionBar();
     }
 
 	@Override
